@@ -97,7 +97,6 @@
 			<stop stop-color="#eeeeec" stop-opacity="0" offset="1"/>
 		</radialGradient>
 	</defs>
-	<rect x="24.5" width="1" height="6" fill="#bebebe" fill-opacity=".49446" opacity=".6" stroke-width=".70711" style="mix-blend-mode:normal;paint-order:fill markers stroke"/>
 	<g>
 		<circle cx="25.011" cy="25" r="17.442" fill="#423b3f" style="paint-order:fill markers stroke"/>
 		<circle cx="25.011" cy="25" r="17.442" fill="url(#radialGradient13774)" opacity=".76948" style="mix-blend-mode:soft-light;paint-order:fill markers stroke"/>
@@ -107,17 +106,20 @@
 		<circle transform="matrix(1.0096 0 0 .9388 -1.004 2.0555)" cx="25.767" cy="25.756" r="17.442" fill="url(#radialGradient27294)" filter="url(#filter27504)" style="mix-blend-mode:normal;paint-order:fill markers stroke"/>
 		<circle cx="25" cy="25" r="17.442" fill="url(#radialGradient30837-0)" opacity=".81006" style="mix-blend-mode:multiply;paint-order:fill markers stroke"/>
 	</g>
-	<rect transform="rotate(-30)" x="8.611" y="9.1735" width="1" height="6" fill="#bebebe" fill-opacity=".49446" opacity=".6" stroke-width=".70711" style="mix-blend-mode:normal;paint-order:fill markers stroke"/>
-	<rect transform="rotate(-60)" x="-9.736" y="9.1735" width="1" height="6" fill="#bebebe" fill-opacity=".49446" opacity=".6" stroke-width=".70711" style="mix-blend-mode:normal;paint-order:fill markers stroke"/>
-	<rect transform="rotate(-90)" x="-25.625" width="1" height="6" fill="#bebebe" fill-opacity=".49446" opacity=".6" stroke-width=".70711" style="mix-blend-mode:normal;paint-order:fill markers stroke"/>
-	<rect transform="rotate(240)" x="-34.799" y="-15.889" width="1" height="6" fill="#bebebe" fill-opacity=".49446" opacity=".6" stroke-width=".70711" style="mix-blend-mode:normal;paint-order:fill markers stroke"/>
-	<rect transform="rotate(210)" x="-34.799" y="-34.236" width="1" height="6" fill="#bebebe" fill-opacity=".49446" opacity=".6" stroke-width=".70711" style="mix-blend-mode:normal;paint-order:fill markers stroke"/>
-	<rect transform="rotate(90)" x="24.5" y="-50" width="1" height="6" fill="#bebebe" fill-opacity=".49446" opacity=".6" stroke-width=".70711" style="mix-blend-mode:normal;paint-order:fill markers stroke"/>
-	<rect transform="rotate(60)" x="33.679" y="-34.096" width="1" height="6" fill="#bebebe" fill-opacity=".49446" opacity=".6" stroke-width=".70711" style="mix-blend-mode:normal;paint-order:fill markers stroke"/>
-	<rect transform="rotate(30)" x="33.675" y="-15.733" width="1" height="6" fill="#bebebe" fill-opacity=".49446" opacity=".6" stroke-width=".70711" style="mix-blend-mode:normal;paint-order:fill markers stroke"/>
-	<rect transform="rotate(120)" x="8.5989" y="-59.184" width="1" height="6" fill="#bebebe" fill-opacity=".49446" opacity=".6" stroke-width=".70711" style="mix-blend-mode:normal;paint-order:fill markers stroke"/>
-	<rect transform="rotate(150)" x="-9.7638" y="-59.187" width="1" height="6" fill="#bebebe" fill-opacity=".49446" opacity=".6" stroke-width=".70711" style="mix-blend-mode:normal;paint-order:fill markers stroke"/>
-	<g id="knob">
+    		<g fill="#bebebe" fill-opacity=".49446" opacity=".59387" stroke-width=".70711">
+			<rect x="24.5" width="1" height="6" opacity=".6" style="mix-blend-mode:normal;paint-order:fill markers stroke"/>
+			<rect transform="rotate(-30)" x="8.611" y="9.1735" width="1" height="6" opacity=".6" style="mix-blend-mode:normal;paint-order:fill markers stroke"/>
+			<rect transform="rotate(-60)" x="-9.736" y="9.1735" width="1" height="6" opacity=".6" style="mix-blend-mode:normal;paint-order:fill markers stroke"/>
+			<rect transform="rotate(-90)" x="-25.625" y="-2.647e-7" width="1" height="6" opacity=".6" style="mix-blend-mode:normal;paint-order:fill markers stroke"/>
+			<rect transform="rotate(240)" x="-34.799" y="-15.889" width="1" height="6" opacity=".6" style="mix-blend-mode:normal;paint-order:fill markers stroke"/>
+			<rect transform="rotate(210)" x="-34.799" y="-34.236" width="1" height="6" opacity=".6" style="mix-blend-mode:normal;paint-order:fill markers stroke"/>
+			<rect transform="rotate(90)" x="24.5" y="-50" width="1" height="6" opacity=".6" style="mix-blend-mode:normal;paint-order:fill markers stroke"/>
+			<rect transform="rotate(60)" x="33.679" y="-34.096" width="1" height="6" opacity=".6" style="mix-blend-mode:normal;paint-order:fill markers stroke"/>
+			<rect transform="rotate(30)" x="33.675" y="-15.733" width="1" height="6" opacity=".6" style="mix-blend-mode:normal;paint-order:fill markers stroke"/>
+			<rect transform="rotate(120)" x="8.5989" y="-59.184" width="1" height="6" opacity=".6" style="mix-blend-mode:normal;paint-order:fill markers stroke"/>
+			<rect transform="rotate(150)" x="-9.7638" y="-59.187" width="1" height="6" opacity=".6" style="mix-blend-mode:normal;paint-order:fill markers stroke"/>
+		</g>
+    <g id="knob">
 		<path transform="matrix(1.0046 0 0 .96836 -.11847 .1811)" d="m25 6.5877-5 39c4 2 8 2 12 0l-5-39" fill="#1e1e1e" filter="url(#filter13426)" opacity=".7" style="mix-blend-mode:normal"/>
 		<path d="m19 43.75c4 2 8 2 12 0l-5-39h-2" fill="#2a242a"/>
 		<path d="m24.076 4.9123-5.0756 38.675c4 2 8 2 12 0l-4.9244-38.675" fill="url(#radialGradient88070)" style="mix-blend-mode:soft-light"/>
