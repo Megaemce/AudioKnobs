@@ -1,6 +1,6 @@
 # AudioKnobs
 Beatiful SVG-based old fasion audio knobs that can are controlled by mouse (JS embedded within SVG). <br>
-Check out [Interactive demo](https://megaemce.github.io/AudioKnobs/)
+Check out [Interactive demo](https://megaemce.github.io/AudioKnobs/). Mouse over the knobs to control their angle. Double click on the knob to reset it to the default value.
 <br>
 <br>
 <img src="knob.svg" width="50%"><img src="knob_2.svg" width="50%">
