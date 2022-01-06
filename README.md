@@ -3,7 +3,7 @@ Beatiful SVG-based old fasion audio knobs that you can control with your mouse.
 
 <img src="knob.svg" width="50%"><img src="knob_2.svg" width="50%">
 
-Check [demo]() for interactive version (github doesn't allow JavaScript inside embedded SVGs)
+Check [demo](https://megaemce.github.io/AudioKnobs/) for interactive version (github doesn't allow JavaScript inside embedded SVGs)
 
 ## How to use
 Simply copy code of the whole SVG object and past it into your code. You are ready to go 🎉 <br>
