@@ -21,7 +21,7 @@ Created for my other project like [mobbler](mobbler.js.org) and [Sound exercises
 
 I would never create this solution without the help of these people:
 
--   [desandro](https://github.com/desandro) - mouse controlled [knob logic](https://github.com/Megaemce/demo/blob/master/2011/dial-knob.html)<br>
+-   [desandro](https://github.com/desandro) - mouse controlled [knob logic](https://github.com/desandro/demo/blob/master/2011/dial-knob.html)<br>
 -   [aike](https://github.com/aike) - knobs look from great application [webaudiosynth](https://github.com/aike/webaudiosynth)
 
 Thank you :wave:
