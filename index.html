@@ -7,69 +7,79 @@
 			body {
 				background-color: rgb(90, 90, 90);
 			}
+
+			input[type="range"] {
+				-webkit-appearance: none;
+				-moz-appearance: none;
+				background: #000000;
+				height: 2px;
+				outline: none;
+				width: 80px;
+				position: absolute;
+				top: 110px;
+				left: -60px;
+				transform: rotate(270deg) translate(50%, 40px);
+				-webkit-transform: rotate(270deg) translate(50%, 40px);
+				-moz-transform: rotate(270deg) translate(50%, 40px);
+				-ms-transform: rotate(270deg) translate(50%, 40px);
+				-o-transform: rotate(270deg) translate(50%, 40px);
+			}
+
+			input[type="range"]::-webkit-slider-thumb {
+				-webkit-appearance: none;
+				position: relative;
+				top: 0;
+				z-index: 1;
+				width: 32px;
+				height: 32px;
+				cursor: pointer;
+				background-image: url("slider.svg");
+				background-repeat: no-repeat;
+				background-position: center;
+				background-size: contain;
+			}
+			input[type="range"]::-moz-range-thumb {
+				-webkit-appearance: none;
+				position: relative;
+				top: 0;
+				z-index: 1;
+				border: 0;
+				width: 32px;
+				height: 32px;
+				cursor: pointer;
+				background-image: url("slider.svg");
+				background-repeat: no-repeat;
+				background-position: center;
+				background-size: contain;
+			}
+
 		</style>
 	</head>
 	<body>
 		<object
-			data="knob_2.svg"
+			id="knob_free"
+			data="knob_free.svg"
 			width="400px"
 			height="400px"
-			style="position: absolute; left: 5%; top: 10%"
+			style="position: absolute; left: 200px; top: 10%"
 		></object>
 		<object
-			data="knob_2.svg"
-			width="200px"
-			height="200px"
-			style="position: absolute; left: 37%; top: 10%"
-		></object>
-		<object
-			data="knob_2.svg"
-			width="100px"
-			height="100px"
-			style="position: absolute; left: 56%; top: 10%"
-		></object>
-		<object
-			data="knob_2.svg"
-			width="50px"
-			height="50px"
-			style="position: absolute; left: 69%; top: 10%"
-		></object>
-		<object
-			data="knob_2.svg"
-			width="25px"
-			height="25px"
-			style="position: absolute; left: 80%; top: 10%"
-		></object>
-
-		<object
-			data="knob.svg"
+			id="knob_limited"
+			data="knob_limited.svg"
 			width="400px"
 			height="400px"
-			style="position: absolute; right: 5%; bottom: 20%"
+			style="position: absolute; left: 700px; top: 10%"
 		></object>
-		<object
-			data="knob.svg"
-			width="200px"
-			height="200px"
-			style="position: absolute; right: 37%; bottom: 20%"
-		></object>
-		<object
-			data="knob.svg"
-			width="100px"
-			height="100px"
-			style="position: absolute; right: 56%; bottom: 20%"
-		></object>
-		<object
-			data="knob.svg"
-			width="50px"
-			height="50px"
-			style="position: absolute; right: 69%; bottom: 20%"
-		></object>
-		<object
-			data="knob.svg"
-			width="25px"
-			height="25px"
-			style="position: absolute; right: 80%; bottom: 20%"
-		></object>
+		Size<input id="size" type="range" min="25" max="400" value="200" />
 	</body>
+	<script>
+		const knobLimited = document.getElementById("knob_limited");
+		const knobFree = document.getElementById("knob_free");
+		document.getElementById("size").oninput = function () {
+			knobLimited.setAttribute("width", `${this.value}px`);
+			knobLimited.setAttribute("height", `${this.value}px`);
+			knobFree.setAttribute("width", `${this.value}px`);
+			knobFree.setAttribute("height", `${this.value}px`);
+		};
+	</script>
 </html>
