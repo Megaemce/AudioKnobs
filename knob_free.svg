@@ -236,5 +236,47 @@
 
             event.preventDefault();
         };
+
+        // touch handlers
+        cover.ontouchstart = function(event) {
+            const knobCenter = {
+                x: cover.getBoundingClientRect().left + cover.getBoundingClientRect().width / 2,
+                y: cover.getBoundingClientRect().top + cover.getBoundingClientRect().height / 2,
+            };
+
+            const radToDeg = (angle) => {
+                return (angle / Math.PI) * 180;
+            };
+
+            const degToRad = (angle) => {
+                return (angle / 180) * Math.PI;
+            }
+
+            const angleFromKnob = (event) => {
+                return Math.atan2(event.touches[0].pageY - knobCenter.y, event.touches[0].pageX - knobCenter.x);
+            };
+
+            const angleMod = (angle, mod) => {
+                return Math.floor(angle / mod)
+            }
+
+            let startAngle = knobAngle - angleFromKnob(event);
+
+            document.ontouchmove = (event) => {
+                knobAngle = angleFromKnob(event) + startAngle;
+                let deg = radToDeg(knobAngle);
+
+                if (deg > 180 && deg < 210) deg = 210;
+                if (deg <= 180 && deg > 150) deg = 150;
+                knob.setAttribute("transform", `rotate(${deg} 25 25)`);
+            };
+
+            document.ontouchend = () => {
+                document.ontouchmove = undefined;
+                document.ontouchend = undefined;
+            };
+
+            event.preventDefault();
+        };
     ]]></script>
 </svg>
