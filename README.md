@@ -1,14 +1,12 @@
 # AudioKnobs
 
-Beautiful old style SVG audio knobs with mouse and touch control (JS embedded within SVG) and dynamic shadows. <br>
-Modelled from Moog synthesizer knobs using Inkscape.
+Beautiful old style SVG audio knobs with mouse adn touch control (JS embedded within SVG) and dynamic shadows (CSS). <br>
+Modelled from Moog synthesizer knobs using Inkscape. Check out [Interactive demo](https://megaemce.github.io/AudioKnobs/). <br>
+
+Mouse over the knobs to control their angle. Double click on the knob to reset it to the default value.
 
 <img src="knob_free.svg" width="50%"><img src="knob1.png" width="50%" alt="Original moog knoob. Courtesy of knobshop.com">
 <img src="knob_limited.svg" width="50%"><img src="knob2.png" width="50%" alt="Original moog knoob. Courtesy of knobshop.com">
-
-Check out [Interactive demo](https://megaemce.github.io/AudioKnobs/). Mouse over the knobs to control their angle. Double click on the knob to reset it to the default value.
-<br>
-<br>
 
 ## How to use
 
